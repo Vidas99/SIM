@@ -344,30 +344,31 @@
                     <div class="col-md-6 col-sm-6 col-xs-12 mb50">
                         <div class="blog-three">
                             <h4 class="blog-title"><a href="#">DESIGN & DESENVOLVIMENTO: 40 ANOS DEPOIS</a></h4>
-                            <div class="blog-three-attrib">
-                                <span class="icon-calendar"></span>Dec 15 2015 |
-                                <span class=" icon-pencil"></span><a href="#">Harry Boo</a>
-                            </div>
+<!--                            <div class="blog-three-attrib">-->
+<!--                                <span class="icon-calendar"></span>Dec 15 2015 |-->
+<!--                                <span class=" icon-pencil"></span><a href="#">Harry Boo</a>-->
+<!--                            </div>-->
                             <img src="assets/img/noticias/noticia1.jpeg" class="img-responsive" alt="image blog">
                             <p class="mt25">
                             <h5>AS OBRAS FORAM CO-EDITADAS PELO PROFESSOR DR. GABRIEL PATROCÍNIO, DO DESIGN.ISMAT</h5>
                             Decorreu no dia 15 de janeiro, na Livraria da Travessa em Lisboa, o lançamento dos livros "Design & Desenvolvimento: 40 anos depois" e "Design & Development - Leveraging Social and Economic Growth through Design Policies." Os livros foram co-editados pelo Professor Dr. Gabriel Patrocínio, do DESIGN.ISMAT, que na ocasião debateu sobre o tema com Frederico Duarte, curador, crítico de design e professor da Faculdade de Belas-Artes.
 
                             </p>
-<!--                            <a href="#" class="button button-gray button-xs">Read More <i class="fa fa-long-arrow-right"></i></a>-->
+<!--                            botão para dar redirect ao website do ISMAT<a href="#" class="button button-gray button-xs">Read More <i class="fa fa-long-arrow-right"></i></a>-->
                         </div>
                     </div>
 
                     <!--Blog Post NOTICIA 2 -->
                     <div class="col-md-6 col-sm-6 col-xs-12 mb50">
                         <div class="blog-three">
-                            <h4 class="blog-title"><a href="#">PUBLIC POLICY DESIGN: FROM CITIES TO EUROPE, AND BACK!</a></h4>
-                            <div class="blog-three-attrib">
-                                <span class="icon-calendar"></span>Dec 15 2015 |
-                                <span class=" icon-pencil"></span><a href="#">Harry Boo</a>
-                            </div>
-                            <img src="assets/img/noticias/noticia2.jpeg" class="img-responsive" alt="image blog">
+                            <h4 class="blog-title"><a href="#">POLICY DESIGN: FROM CITIES TO EUROPE, AND BACK!</a></h4>
+<!--                            <div class="blog-three-attrib">-->
+<!--                                <span class="icon-calendar"></span>Dec 15 2015 |-->
+<!--                                <span class=" icon-pencil"></span><a href="#">Harry Boo</a>-->
+<!--                            </div>-->
+                            <img src="assets/img/noticias/noticia3.jpeg" class="img-responsive" alt="image blog">
                             <p class="mt25">
+                            <h5>DR. GABRIEL PATROCÍNIO, PROFESSOR DO DESIGN.ISMAT, ESTEVE PRESENTE NA CONFERÊNCIA DE PUBLIC POLICY DESIGN EM BRUXELAS</h5>
                                 Public Policy Design: from cities to Europe, and back! - foi o tema da conferência que aconteceu no dia 25 de novembro em Bruxelas, e que contou com a presença e participação do Dr. Gabriel Patrocínio, professor do Design.Ismat. Durante o evento, promovido pela municipalidade de Lille, Capital Mundial do Design em 2020, foram debatidos e avaliados pelos presentes quatro projetos de renovação social e urbana nas cidades de Bruxelas, Helsínquia, Kolding e Valencia. Os contactos realizados deverão resultar em futuras colaborações com o ISMAT.                            </p>
 <!--                            <a href="#" class="button button-gray button-xs">Read More <i class="fa fa-long-arrow-right"></i></a>-->
                         </div>
