@@ -317,70 +317,62 @@
         
         <!-- Blog Area
         ===================================== -->
-        <section id="blog" class="pt75 pb50">
-            <div class="container">
-                
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        
-                        <div class="blog-three-mini">
-                            <h2 class="color-dark"><a href="#">DESIGN & DESENVOLVIMENTO: 40 ANOS DEPOIS</a></h2>
-<!--                            DIV INFORMACIONAL SOBRE A NOTICIA-->
-                            <div class="blog-three-attrib">
-                                <div><i class="fa fa-calendar"></i>Dec 15 2015</div> |
-                                <div><i class="fa fa-pencil"></i><a href="#">Harry Boo</a></div> |
-                                <div><i class="fa fa-comment-o"></i><a href="#">90 Comments</a></div> |
-                                <div><a href="#"><i class="fa fa-thumbs-o-up"></i></a>150 Likes</div> |
-                                <div>
-                                </div>
-                            </div>
 
-                            <img src="assets/img/noticias/noticia1.jpeg" alt="Image Carousel" class="img-responsive">
-                            <p class="lead mt25">
-                                <h3>AS OBRAS FORAM CO-EDITADAS PELO PROFESSOR DR. GABRIEL PATROCÍNIO, DO DESIGN.ISMAT</h3>
-                                Decorreu no dia 15 de janeiro, na Livraria da Travessa em Lisboa, o lançamento dos livros "Design & Desenvolvimento: 40 anos depois" e "Design & Development - Leveraging Social and Economic Growth through Design Policies." Os livros foram co-editados pelo Professor Dr. Gabriel Patrocínio, do DESIGN.ISMAT, que na ocasião debateu sobre o tema com Frederico Duarte, curador, crítico de design e professor da Faculdade de Belas-Artes.
-                            </p>
-
-
-                
-<!--                <div class="row mt35 animated" data-animation="fadeInUp" data-animation-delay="800">-->
-<!--                    <div class="col-md-6">-->
-<!--                        <a href="#" class="button button-dark button-sm pull-right">Prev</a>-->
-<!--                    </div>-->
-<!--                    <div class="col-md-6">-->
-<!--                        <a href="#" class="button button-dark button-sm pull-left">Next</a>-->
-<!--                    </div>-->
-<!--                </div>-->
-                
-            </div>
+        <div id="blog" class="pt75 pb50">
             <div class="container">
 
+<!--                <nav class="navbar navbar-default mb50">-->
+<!--                    <ul class="nav navbar-nav">-->
+<!--                        <li class="active"><a href="#">All Posts</a></li>-->
+<!--                        <li><a href="#">HTML</a></li>-->
+<!--                        <li><a href="#">Wordpress</a></li>-->
+<!--                        <li><a href="#">Javascript</a></li>-->
+<!--                        <li><a href="#">PHP</a></li>-->
+<!--                        <li><a href="#">Design &amp; UX</a></li>-->
+<!--                        <li><a href="#">Mobile</a></li>-->
+<!--                    </ul>-->
+<!---->
+<!--                    <form name="blog-search" action="#" class="blog-form-search pull-right">-->
+<!--                        <input type="text" name="search" class="" placeholder="e.g. Javascript">-->
+<!--                        <button type="submit" name="submit" class=""><i class="fa fa-search"></i></button>-->
+<!--                    </form>-->
+<!--                </nav>-->
+
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-0">
 
-                        <div class="blog-three-mini">
-                            <h2 class="color-dark"><a href="#">PUBLIC POLICY DESIGN: FROM CITIES TO EUROPE, AND BACK!</a></h2>
-                            <!--                            DIV INFORMACIONAL SOBRE A NOTICIA-->
+                    <!--Blog Post NOTICIA1 -->
+                    <div class="col-md-6 col-sm-6 col-xs-12 mb50">
+                        <div class="blog-three">
+                            <h4 class="blog-title"><a href="#">DESIGN & DESENVOLVIMENTO: 40 ANOS DEPOIS</a></h4>
                             <div class="blog-three-attrib">
-                                <div><i class="fa fa-calendar"></i>Dec 15 2015</div> |
-                                <div><i class="fa fa-pencil"></i><a href="#">Harry Boo</a></div> |
-                                <div><i class="fa fa-comment-o"></i><a href="#">90 Comments</a></div> |
-                                <div><a href="#"><i class="fa fa-thumbs-o-up"></i></a>150 Likes</div> |
-                                <div>
-                                </div>
+                                <span class="icon-calendar"></span>Dec 15 2015 |
+                                <span class=" icon-pencil"></span><a href="#">Harry Boo</a>
                             </div>
+                            <img src="assets/img/noticias/noticia1.jpeg" class="img-responsive" alt="image blog">
+                            <p class="mt25">
+                            <h5>AS OBRAS FORAM CO-EDITADAS PELO PROFESSOR DR. GABRIEL PATROCÍNIO, DO DESIGN.ISMAT</h5>
+                            Decorreu no dia 15 de janeiro, na Livraria da Travessa em Lisboa, o lançamento dos livros "Design & Desenvolvimento: 40 anos depois" e "Design & Development - Leveraging Social and Economic Growth through Design Policies." Os livros foram co-editados pelo Professor Dr. Gabriel Patrocínio, do DESIGN.ISMAT, que na ocasião debateu sobre o tema com Frederico Duarte, curador, crítico de design e professor da Faculdade de Belas-Artes.
 
-                            <img src="assets/img/noticias/noticia3.jpeg" alt="Image Carousel" class="img-responsive">
-                            <p class="lead mt25">
-                            <h3>DR. GABRIEL PATROCÍNIO, PROFESSOR DO DESIGN.ISMAT, ESTEVE PRESENTE NA CONFERÊNCIA DE PUBLIC POLICY DESIGN EM BRUXELAS</h3>
-                            Public Policy Design: from cities to Europe, and back! - foi o tema da conferência que aconteceu no dia 25 de novembro em Bruxelas, e que contou com a presença e participação do Dr. Gabriel Patrocínio, professor do Design.Ismat. Durante o evento, promovido pela municipalidade de Lille, Capital Mundial do Design em 2020, foram debatidos e avaliados pelos presentes quatro projetos de renovação social e urbana nas cidades de Bruxelas, Helsínquia, Kolding e Valencia. Os contactos realizados deverão resultar em futuras colaborações com o ISMAT.
                             </p>
-
+<!--                            <a href="#" class="button button-gray button-xs">Read More <i class="fa fa-long-arrow-right"></i></a>-->
                         </div>
-        </section>
-         
+                    </div>
 
-        
+                    <!--Blog Post NOTICIA 2 -->
+                    <div class="col-md-6 col-sm-6 col-xs-12 mb50">
+                        <div class="blog-three">
+                            <h4 class="blog-title"><a href="#">PUBLIC POLICY DESIGN: FROM CITIES TO EUROPE, AND BACK!</a></h4>
+                            <div class="blog-three-attrib">
+                                <span class="icon-calendar"></span>Dec 15 2015 |
+                                <span class=" icon-pencil"></span><a href="#">Harry Boo</a>
+                            </div>
+                            <img src="assets/img/noticias/noticia2.jpeg" class="img-responsive" alt="image blog">
+                            <p class="mt25">
+                                Public Policy Design: from cities to Europe, and back! - foi o tema da conferência que aconteceu no dia 25 de novembro em Bruxelas, e que contou com a presença e participação do Dr. Gabriel Patrocínio, professor do Design.Ismat. Durante o evento, promovido pela municipalidade de Lille, Capital Mundial do Design em 2020, foram debatidos e avaliados pelos presentes quatro projetos de renovação social e urbana nas cidades de Bruxelas, Helsínquia, Kolding e Valencia. Os contactos realizados deverão resultar em futuras colaborações com o ISMAT.                            </p>
+<!--                            <a href="#" class="button button-gray button-xs">Read More <i class="fa fa-long-arrow-right"></i></a>-->
+                        </div>
+                    </div>
+                </div>
         <!-- Footer Area
         <footer class="page-footer font-small blue pt-4">
 
