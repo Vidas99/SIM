@@ -2,7 +2,7 @@
 $host = "localhost";
 $username = "root";
 $passwd = "";
-$dbname = "basededados";
+$dbname = "books";
 $db = new mysqli($host,$username,$passwd,$dbname);
 $db->set_charset('utf8mb4');
 if ($db->connect_error){ // Verifica a ligação

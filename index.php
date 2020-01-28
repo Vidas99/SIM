@@ -225,6 +225,9 @@
                                         </div>
                                         <div class="col-sm-4">
                                             <img src="assets/img/cursos/ismatcursos.png" alt="pasific page" class="img-responsive mt25">
+
+
+
                                         </div>
                                     </div>
                                 </li>
@@ -320,34 +323,12 @@
 
         <div id="blog" class="pt75 pb50">
             <div class="container">
-
-<!--                <nav class="navbar navbar-default mb50">-->
-<!--                    <ul class="nav navbar-nav">-->
-<!--                        <li class="active"><a href="#">All Posts</a></li>-->
-<!--                        <li><a href="#">HTML</a></li>-->
-<!--                        <li><a href="#">Wordpress</a></li>-->
-<!--                        <li><a href="#">Javascript</a></li>-->
-<!--                        <li><a href="#">PHP</a></li>-->
-<!--                        <li><a href="#">Design &amp; UX</a></li>-->
-<!--                        <li><a href="#">Mobile</a></li>-->
-<!--                    </ul>-->
-<!---->
-<!--                    <form name="blog-search" action="#" class="blog-form-search pull-right">-->
-<!--                        <input type="text" name="search" class="" placeholder="e.g. Javascript">-->
-<!--                        <button type="submit" name="submit" class=""><i class="fa fa-search"></i></button>-->
-<!--                    </form>-->
-<!--                </nav>-->
-
                 <div class="row">
 
                     <!--Blog Post NOTICIA1 -->
                     <div class="col-md-6 col-sm-6 col-xs-12 mb50">
                         <div class="blog-three">
                             <h4 class="blog-title"><a href="#">DESIGN & DESENVOLVIMENTO: 40 ANOS DEPOIS</a></h4>
-<!--                            <div class="blog-three-attrib">-->
-<!--                                <span class="icon-calendar"></span>Dec 15 2015 |-->
-<!--                                <span class=" icon-pencil"></span><a href="#">Harry Boo</a>-->
-<!--                            </div>-->
                             <img src="assets/img/noticias/noticia1.jpeg" class="img-responsive" alt="image blog">
                             <p class="mt25">
                             <h5>AS OBRAS FORAM CO-EDITADAS PELO PROFESSOR DR. GABRIEL PATROCÍNIO, DO DESIGN.ISMAT</h5>
@@ -362,18 +343,31 @@
                     <div class="col-md-6 col-sm-6 col-xs-12 mb50">
                         <div class="blog-three">
                             <h4 class="blog-title"><a href="#">POLICY DESIGN: FROM CITIES TO EUROPE, AND BACK!</a></h4>
-<!--                            <div class="blog-three-attrib">-->
-<!--                                <span class="icon-calendar"></span>Dec 15 2015 |-->
-<!--                                <span class=" icon-pencil"></span><a href="#">Harry Boo</a>-->
-<!--                            </div>-->
                             <img src="assets/img/noticias/noticia3.jpeg" class="img-responsive" alt="image blog">
                             <p class="mt25">
                             <h5>DR. GABRIEL PATROCÍNIO, PROFESSOR DO DESIGN.ISMAT, ESTEVE PRESENTE NA CONFERÊNCIA DE PUBLIC POLICY DESIGN EM BRUXELAS</h5>
                                 Public Policy Design: from cities to Europe, and back! - foi o tema da conferência que aconteceu no dia 25 de novembro em Bruxelas, e que contou com a presença e participação do Dr. Gabriel Patrocínio, professor do Design.Ismat. Durante o evento, promovido pela municipalidade de Lille, Capital Mundial do Design em 2020, foram debatidos e avaliados pelos presentes quatro projetos de renovação social e urbana nas cidades de Bruxelas, Helsínquia, Kolding e Valencia. Os contactos realizados deverão resultar em futuras colaborações com o ISMAT.                            </p>
-<!--                            <a href="#" class="button button-gray button-xs">Read More <i class="fa fa-long-arrow-right"></i></a>-->
+                            </p>
+                            <!--                            <a href="#" class="button button-gray button-xs">Read More <i class="fa fa-long-arrow-right"></i></a>-->
                         </div>
                     </div>
                 </div>
+<!--                tentativa de implementação de video-->
+                <div class="col-md-6 col-sm-6 col-xs-12 mb50">
+                    <div class="blog-three">
+                        <h4 class="blog-title"><a href="#">Grupo Lusófona</a></h4>
+
+                        <iframe width="420" height="315"
+                                src="https://www.youtube.com/embed/2A-HDKW2pn0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                        <p class="mt25">
+                        <h5>Titulo bue interessante</h5>
+                        Escrever um discurso extremamente motivacional
+                        </p>
+                        <!--<a href="#" class="button button-gray button-xs">Read More <i class="fa fa-long-arrow-right"></i></a>-->
+                    </div>
+                </div>
+            </div>
         <!-- Footer Area
         <footer class="page-footer font-small blue pt-4">
 
