@@ -40,7 +40,7 @@
 
             </form>
 <?php
-require('Vidas_SIM.php');
+require('db.php');
 $sql = "SELECT title, subtitle, news_text FROM news ";
 if ($result = $db->query($sql)){
     echo '<table border="1">';
