@@ -5,6 +5,7 @@ $news_text = $_POST['news_text'];
 
 if (!$title || !$subtitle || !$news_text){
     echo "Preenche os espaços";
+    exit;
 }
 else{
 
