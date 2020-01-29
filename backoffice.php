@@ -9,21 +9,21 @@
                     <label >
                         Titulo
                     </label>
-                    <input type="text" class="form-control" id="title" />
+                    <input type="text" name="title" class="form-control" id="title" />
                 </div>
                 <div class="form-group">
 
                     <label>
                         Subtitulo
                     </label>
-                    <input type="text" class="form-control" id="subtitle" />
+                    <input type="text" name="subtitle" class="form-control" id="subtitle" />
                 </div>
                 <div class="form-group">
 
                     <label>
                         Noticia
                     </label>
-                    <textarea type="text" class="form-control" id="news_text"></textarea>
+                    <textarea type="text" name="news_text" class="form-control" id="news_text"></textarea>
                 </div>
 <!--                <div class="form-group">-->
 <!---->
