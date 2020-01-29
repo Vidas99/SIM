@@ -91,9 +91,9 @@
             </div>
 		</div>
         
-        <a href="#page-top" class="go-to-top">
-            <i class="fa fa-long-arrow-up"></i>
-        </a>
+<!--        <a href="#page-top" class="go-to-top">-->
+<!--            <i class="fa fa-long-arrow-up"></i>-->
+<!--        </a>-->
         
         
         <!-- Navbar(Conteúdo estático)
@@ -231,9 +231,6 @@
                                         </div>
                                         <div class="col-sm-4">
                                             <img src="assets/img/cursos/ismatcursos.png" alt="pasific page" class="img-responsive mt25">
-
-
-
                                         </div>
                                     </div>
                                 </li>
@@ -274,35 +271,6 @@
                 </div>
             </div>
         </nav>
-        
-        
-        <!-- Search Modal Dialog Box
-        ===================================== -->
-        <div id="searchModal" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-header bg-gray">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h5 class="modal-title text-center"><i class="fa fa-search fa-fw"></i> Search here</h5>
-                    </div>
-                    <div class="modal-body">                        
-                        <form action="#" class="inline-form">
-                            <input type="text" class="modal-search-input" autofocus>
-                        </form>
-                    </div>
-                    <div class="modal-footer bg-gray">
-                        <span class="text-center"><a href="#" class="color-dark">Advanced Search</a></span>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        
-        <!-- Blog Area
-        ===================================== -->
-
 
 <!--        Parte da introdução de noticias no backoffice(ligação à db)-->
 
@@ -357,10 +325,9 @@
                                 src="https://www.youtube.com/embed/2A-HDKW2pn0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                         </iframe>
                         <p class="mt25">
-                        <h5>Titulo bue interessante</h5>
+                        <h5>O SITIO ONDE TU PODE SER MAIS! </h5>
                         Junta-te a nós na obtenção do teu trabalho de sonho!
                         </p>
-                        <!--<a href="#" class="button button-gray button-xs">Read More <i class="fa fa-long-arrow-right"></i></a>-->
                     </div>
                 </div>
 <!--                    VIDEO 2-->
@@ -374,7 +341,6 @@
                         <h5>“DIA ABERTO” TEVE LOTAÇÃO ESGOTADA</h5>
                         Foram muitos os alunos que responderam ao desafio e visitaram a Universidade do Algarve em mais uma edição do Dia Aberto. As inscrições esgotaram, as atividades encheram e perto de 3 mil participantes aderiram a esta iniciativa, dirigida aos alunos do ensino básico e secundário, mas também a professores, procurando incluir, ainda, os encarregados de educação e demais cidadãos interessados.
                         </p>
-                        <!--<a href="#" class="button button-gray button-xs">Read More <i class="fa fa-long-arrow-right"></i></a>-->
                     </div>
                 </div>
 
@@ -384,84 +350,28 @@
         </div>
 
 
-        <!-- Footer Area
+        <!-- Area do Rodapé/Footer
         <footer class="page-footer font-small blue pt-4">
 
      Footer Links -->
-        <div class="container-fluid text-center text-md-left">
+        <footer>
+            <div class="container-fluid text-center text-md-left">
 
             <!-- Grid row -->
-            <div class="row">
+                <div class="row">
 
                 <!-- Grid column -->
-                <div class="col-lg-12">
+                    <div class="col-lg-12">
 
                     <!-- Content -->
-                    <h5 class="text-uppercase">Made By: Vidas</h5>
-                    <p>Sistemas de Informação Multimédia </p>
+                        <h5 class="text-uppercase">Made By: Vidas</h5>
+                        <p>Sistemas de Informação Multimédia </p>
 
+                    </div>
                 </div>
             </div>
-        </div>
-                <!-- Grid column -->
 
-<!--                <hr class="clearfix w-100 d-md-none pb-3">-->
-
-<!--                &lt;!&ndash; Grid column &ndash;&gt;-->
-<!--                <div class="col-md-3 mb-md-0 mb-3">-->
-
-<!--                    &lt;!&ndash; Links &ndash;&gt;-->
-<!--                    <h5 class="text-uppercase">Links</h5>-->
-
-<!--                    <ul class="list-unstyled">-->
-<!--                        <li>-->
-<!--                            <a href="#!">Link 1</a>-->
-<!--                        </li>-->
-<!--                        <li>-->
-<!--                            <a href="#!">Link 2</a>-->
-<!--                        </li>-->
-<!--                        <li>-->
-<!--                            <a href="#!">Link 3</a>-->
-<!--                        </li>-->
-<!--                        <li>-->
-<!--                            <a href="#!">Link 4</a>-->
-<!--                        </li>-->
-<!--                    </ul>-->
-
-<!--                </div>-->
-<!--                &lt;!&ndash; Grid column &ndash;&gt;-->
-
-<!--                &lt;!&ndash; Grid column &ndash;&gt;-->
-<!--                <div class="col-md-3 mb-md-0 mb-3">-->
-
-<!--                    &lt;!&ndash; Links &ndash;&gt;-->
-<!--                    <h5 class="text-uppercase">Links</h5>-->
-
-<!--                    <ul class="list-unstyled">-->
-<!--                        <li>-->
-<!--                            <a href="#!">Link 1</a>-->
-<!--                        </li>-->
-<!--                        <li>-->
-<!--                            <a href="#!">Link 2</a>-->
-<!--                        </li>-->
-<!--                        <li>-->
-<!--                            <a href="#!">Link 3</a>-->
-<!--                        </li>-->
-<!--                        <li>-->
-<!--                            <a href="#!">Link 4</a>-->
-<!--                        </li>-->
-<!--                    </ul>-->
-
-<!--                </div>-->
-<!--                &lt;!&ndash; Grid column &ndash;&gt;-->
-
-<!--            </div>-->
-<!--            &lt;!&ndash; Grid row &ndash;&gt;-->
-
-<!--        </div>-->
-<!--        &lt;!&ndash; Footer Links &ndash;&gt;-->
-
-        <!-- Copyright -->
+        <!-- Copyright do footer -->
         <div class="footer-copyright text-center py-3">© 2020 Copyright:
             <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
         </div>

@@ -1,11 +1,22 @@
-<?php require('db.php');?>
+<?php require('db.php');
+session_start();
+
+if(!isset($_SESSION["loggedin"]) || !$_SESSION["loggedin"]){
+    header("location: login.php");
+    exit;
+}
+?>
 
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-12">
+
+                <a type="submit" href="logout.php" class="btn btn-primary">
+                    Logout
+                </a>
+
             <form action="updatenews.php" method="post" role="form" class="form-inline" enctype="multipart/form-data">
                 <div class="form-group">
-
                     <label >
                         Titulo
                     </label>

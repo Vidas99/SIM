@@ -13,7 +13,8 @@ if(isset($_GET['logout'])) {
 
 if(isset($_POST['username'])) {
     if($userinfo[$_POST['username']] == $_POST['password']) {
-        $_SESSION['username'] = $_POST['username'];
+//        $_SESSION['username'] = $_POST['username'];
+        header("location: backoffice.php");
     }else {
         //Invalid Login
     }
