@@ -344,41 +344,41 @@
                         </div>
                     </div>
 <!--                    -->
-                    <?php
-                    $query = "SELECT title, news_text FROM news";
-
-                    if (($stmt = $db->prepare($query)) === false) {
-                        trigger_error($db->error, E_USER_ERROR);
-                    }
-                    if ($stmt->execute() === false) {
-                        trigger_error($stmt->error, E_USER_ERROR);
-                    }
-                    if (($result = $stmt->get_result()) === false) {
-                        trigger_error($stmt->error, E_USER_ERROR);
-                    }
-
-                    if ($stmt = mysqli_prepare($db, $query)) {
-
-                        /* execute statement */
-                        mysqli_stmt_execute($stmt);
-
-                        /* bind result variables */
-                        mysqli_stmt_bind_result($stmt, $title, $news_text);
-                        /* fetch values */
-                        while (mysqli_stmt_fetch($stmt)) {
-                            echo '<div class="col-lg-6 col-sm-6">
-                                        <div class="news_text">
-                                            <h2>'.$title.'</h2>
-                                            <p>'.$news_text.'</p>
-                                         </div>
-                                       </div>';
-                        }
-                        /* close statement */
-                        mysqli_stmt_close($stmt);
-                    }
-                    /* close connection */
-                    mysqli_close($db);
-                    ?>
+<!--                    --><?php
+//                    $query = "SELECT title, news_text FROM news";
+//
+//                    if (($stmt = $db->prepare($query)) === false) {
+//                        trigger_error($db->error, E_USER_ERROR);
+//                    }
+//                    if ($stmt->execute() === false) {
+//                        trigger_error($stmt->error, E_USER_ERROR);
+//                    }
+//                    if (($result = $stmt->get_result()) === false) {
+//                        trigger_error($stmt->error, E_USER_ERROR);
+//                    }
+//
+//                    if ($stmt = mysqli_prepare($db, $query)) {
+//
+//                        /* execute statement */
+//                        mysqli_stmt_execute($stmt);
+//
+//                        /* bind result variables */
+//                        mysqli_stmt_bind_result($stmt, $title, $news_text);
+//                        /* fetch values */
+//                        while (mysqli_stmt_fetch($stmt)) {
+//                            echo '<div class="col-lg-6 col-sm-6">
+//                                        <div class="news_text">
+//                                            <h2>'.$title.'</h2>
+//                                            <p>'.$news_text.'</p>
+//                                         </div>
+//                                       </div>';
+//                        }
+//                        /* close statement */
+//                        mysqli_stmt_close($stmt);
+//                    }
+//                    /* close connection */
+//                    mysqli_close($db);
+//                    ?>
 
                     <!--Blog Post NOTICIA 2 -->
                     <div class="col-md-6 col-sm-6 col-xs-12 mb50">
