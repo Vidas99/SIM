@@ -19,6 +19,7 @@
         =====================================-->
         <link rel="stylesheet" href="assets/css/core/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/core/animate.min.css">
+       <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
         
         <!-- Load Main CSS 
         =====================================-->
@@ -63,15 +64,19 @@
         <link rel="stylesheet" href="assets/css/icon/linea-weather-10.css">--> 
         <link rel="stylesheet" href="assets/css/icon/font-awesome.css">
         <link rel="stylesheet" href="assets/css/icon/et-line-font.css">
-        
+
+
         <!-- Load JS
         HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
         WARNING: Respond.js doesn't work if you view the page via file://
         =====================================-->
 
         <!--[if lt IE 9]>
+       <script src="assets/js/jquery.fancybox.min.js"></script>
+
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
         <![endif]-->
         
     </head>
@@ -338,6 +343,42 @@
 <!--                            botão para dar redirect ao website do ISMAT<a href="#" class="button button-gray button-xs">Read More <i class="fa fa-long-arrow-right"></i></a>-->
                         </div>
                     </div>
+<!--                    -->
+                    <?php
+                    $query = "SELECT title, news_text FROM news";
+
+                    if (($stmt = $db->prepare($query)) === false) {
+                        trigger_error($db->error, E_USER_ERROR);
+                    }
+                    if ($stmt->execute() === false) {
+                        trigger_error($stmt->error, E_USER_ERROR);
+                    }
+                    if (($result = $stmt->get_result()) === false) {
+                        trigger_error($stmt->error, E_USER_ERROR);
+                    }
+
+                    if ($stmt = mysqli_prepare($db, $query)) {
+
+                        /* execute statement */
+                        mysqli_stmt_execute($stmt);
+
+                        /* bind result variables */
+                        mysqli_stmt_bind_result($stmt, $title, $news_text);
+                        /* fetch values */
+                        while (mysqli_stmt_fetch($stmt)) {
+                            echo '<div class="col-lg-6 col-sm-6">
+                                        <div class="news_text">
+                                            <h2>'.$title.'</h2>
+                                            <p>'.$news_text.'</p>
+                                         </div>
+                                       </div>';
+                        }
+                        /* close statement */
+                        mysqli_stmt_close($stmt);
+                    }
+                    /* close connection */
+                    mysqli_close($db);
+                    ?>
 
                     <!--Blog Post NOTICIA 2 -->
                     <div class="col-md-6 col-sm-6 col-xs-12 mb50">
@@ -348,26 +389,36 @@
                             <h5>DR. GABRIEL PATROCÍNIO, PROFESSOR DO DESIGN.ISMAT, ESTEVE PRESENTE NA CONFERÊNCIA DE PUBLIC POLICY DESIGN EM BRUXELAS</h5>
                                 Public Policy Design: from cities to Europe, and back! - foi o tema da conferência que aconteceu no dia 25 de novembro em Bruxelas, e que contou com a presença e participação do Dr. Gabriel Patrocínio, professor do Design.Ismat. Durante o evento, promovido pela municipalidade de Lille, Capital Mundial do Design em 2020, foram debatidos e avaliados pelos presentes quatro projetos de renovação social e urbana nas cidades de Bruxelas, Helsínquia, Kolding e Valencia. Os contactos realizados deverão resultar em futuras colaborações com o ISMAT.                            </p>
                             </p>
-                            <!--                            <a href="#" class="button button-gray button-xs">Read More <i class="fa fa-long-arrow-right"></i></a>-->
+                            <!--<a href="#" class="button button-gray button-xs">Read More <i class="fa fa-long-arrow-right"></i></a>-->
                         </div>
                     </div>
                 </div>
 <!--                tentativa de implementação de video-->
-                <div class="col-md-6 col-sm-6 col-xs-12 mb50">
-                    <div class="blog-three">
-                        <h4 class="blog-title"><a href="#">Grupo Lusófona</a></h4>
+                    <div class="col-md-6 col-sm-6 col-xs-12 mb50">
+                        <div class="blog-three">
+                            <h4 class="blog-title"><a href="#">Grupo Lusófona</a></h4>
 
-                        <iframe width="420" height="315"
+                            <iframe width="420" height="315"
                                 src="https://www.youtube.com/embed/2A-HDKW2pn0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                        </iframe>
-                        <p class="mt25">
-                        <h5>Titulo bue interessante</h5>
+                            </iframe>
+                            <p class="mt25">
+                            <h5>Titulo bue interessante</h5>
                         Escrever um discurso extremamente motivacional
-                        </p>
-                        <!--<a href="#" class="button button-gray button-xs">Read More <i class="fa fa-long-arrow-right"></i></a>-->
+                            </p>
+<!--                        <a href="#" class="button button-gray button-xs">Read More <i class="fa fa-long-arrow-right"></i></a>-->
                     </div>
-                </div>
+<!--                </div>-->
+<!--                <div class="card col-lg-4 col-sm-6">-->
+<!--                    <a data-fancybox data-width="1280" data-height="720" href="https://www.youtube.com/embed/2A-HDKW2pn0">-->
+<!--                        <img class="card-img-top img-fluid" src="http://img.youtube.com/vi/2A-HDKW2pn0/mqdefault.jpg" />-->
+<!--                    </a>-->
+<!--                    <div class="card-body">-->
+<!--                        <p class="gallery_text">squeaking when being petted</p>-->
+<!--                    </div>-->
+<!--                </div>-->
             </div>
+
+
         <!-- Footer Area
         <footer class="page-footer font-small blue pt-4">
 
@@ -378,13 +429,14 @@
             <div class="row">
 
                 <!-- Grid column -->
-                <div class="col-md-6 mt-md-0 mt-3">
+                <div class="col-lg-12">
 
                     <!-- Content -->
                     <h5 class="text-uppercase">Made By: Vidas</h5>
                     <p>Sistemas de Informação Multimédia </p>
 
                 </div>
+            </div>
                 <!-- Grid column -->
 
 <!--                <hr class="clearfix w-100 d-md-none pb-3">-->
@@ -455,6 +507,7 @@
         <!-- JQuery Core
         =====================================-->
         <script src="assets/js/core/jquery.min.js"></script>
+<!--        <script src="assets/js/jquery-3.4.1.min.js"></script>-->
         <script src="assets/js/core/bootstrap.min.js"></script>
         
         <!-- Magnific Popup
