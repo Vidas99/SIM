@@ -10,7 +10,8 @@ if (!$title || !$subtitle || !$news_text){
 else{
 
     $sql = "insert into news (title, subtitle, news_text) values('$title','$subtitle','$news_text')";
-
+    echo $db;
+    die();
     if ($db->query($sql)) {
         echo "Noticia introduzida com sucesso";
     } else {

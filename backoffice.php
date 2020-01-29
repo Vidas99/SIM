@@ -50,7 +50,7 @@ if ($result = $db->query($sql)){
         echo '<tr>';
         echo '<td>'.$news->title.'</td>';
         echo '<td>'.$news->subtitle.'</td>';
-        echo '<td><a href="deletebackoffice.php?title='.$news->title.'">SIM</a></td>';
+        echo '<td><a href="deletebackoffice.phptitle='.$news->title.'">SIM</a></td>';
         echo '</tr>';
     }
     echo '</table>';
