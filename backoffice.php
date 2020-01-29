@@ -3,7 +3,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-12">
-            <form role="form" class="form-inline">
+            <form action="updatenews.php" method="post" role="form" class="form-inline">
                 <div class="form-group">
 
                     <label >
