@@ -28,7 +28,6 @@
 <!--===============================================================================================-->
 </head>
 <body>
-<!--	ASPETOS QUE NÂO SEJAM APRESENTADOS COMO ERA SUPOSTO, CONFIRMAR A SOURCE DELES PORQUE ME POSSO TER ESQUECIDO DE COLOCAR TODAS AS SRC.-->
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">

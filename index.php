@@ -3,7 +3,7 @@
 <!--ligaçâo bd-->
 <?php require('db.php');?>
    <head>
-        <title>Pasific Multipage Template |  Blog Post Read</title>        
+        <title>Vidas News</title>
         <meta name="description" content="">
         <meta name="keywords" content="">
         <meta charset="utf-8">
@@ -83,7 +83,7 @@
     </head>
     <body  id="topPage" data-spy="scroll" data-target=".navbar" data-offset="100">
         
-        <!-- Page Loader
+        <!-- Animação de loading da página
         ===================================== -->
 		<div id="pageloader">
 			<div class="loader-item">
@@ -96,7 +96,7 @@
         </a>
         
         
-        <!-- Navigation Area
+        <!-- Navbar(Conteúdo estático)
         ===================================== -->
         <nav class="navbar navbar-pasific navbar-mp navbar-standart megamenu navbar-fixed-top" style="border-bottom:1px solid #fff;">
             <div class="container">
@@ -300,34 +300,11 @@
             </div>
         </div>
         
-        
-        <!-- Subheader Area
-        ===================================== -->
-<!--        <header class="bg-grad-stellar mt70">-->
-
-<!--            <div class="container">-->
-<!--                <div class="row mt20 mb30">-->
-<!--                    <div class="col-md-6 text-left">-->
-<!--                        <h3 class="color-light text-uppercase animated" data-animation="fadeInUp" data-animation-delay="100">Blog Post Read<small class="color-light alpha7">some notes.</small></h3>-->
-<!--                    </div>-->
-<!--                    <div class="col-md-6 text-right pt35">-->
-<!--                        <ul class="breadcrumb">-->
-<!--                            <li><a href="#">Home</a></li>-->
-<!--                            <li><a href="#">Blog Page</a></li>-->
-<!--                            <li><a href="#">Blog Posts</a></li>-->
-<!--                            <li>Blog Post Read</li>-->
-<!--                        </ul>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-
-<!--        </header>-->
-<!--        -->
-        
         <!-- Blog Area
         ===================================== -->
 
 
+<!--        Parte da introdução de noticias no backoffice(ligação à db)-->
 
         <div id="blog" class="pt75 pb50">
             <div class="container">
@@ -370,8 +347,43 @@
                     mysqli_close($db);
                     ?>
                 </div>
+
+<!--                Parte de video estática-->
+<!--                    VIDEO 1-->
+                <div class="col-md-6 col-sm-6 col-xs-12 mb50">
+                    <div class="blog-three">
+                        <h4 class="blog-title"><a href="#">Grupo Lusófona</a></h4>
+                        <iframe width="420" height="315"
+                                src="https://www.youtube.com/embed/2A-HDKW2pn0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                        <p class="mt25">
+                        <h5>Titulo bue interessante</h5>
+                        Junta-te a nós na obtenção do teu trabalho de sonho!
+                        </p>
+                        <!--<a href="#" class="button button-gray button-xs">Read More <i class="fa fa-long-arrow-right"></i></a>-->
+                    </div>
+                </div>
+<!--                    VIDEO 2-->
+                <div class="col-md-6 col-sm-6 col-xs-12 mb50">
+                    <div class="blog-three">
+                        <h4 class="blog-title"><a href="#">Dia aberto UALg</a></h4>
+                        <iframe width="420" height="315"
+                                src="https://www.youtube.com/embed/6UHazNXlXPs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                        <p class="mt25">
+                        <h5>“DIA ABERTO” TEVE LOTAÇÃO ESGOTADA</h5>
+                        Foram muitos os alunos que responderam ao desafio e visitaram a Universidade do Algarve em mais uma edição do Dia Aberto. As inscrições esgotaram, as atividades encheram e perto de 3 mil participantes aderiram a esta iniciativa, dirigida aos alunos do ensino básico e secundário, mas também a professores, procurando incluir, ainda, os encarregados de educação e demais cidadãos interessados.
+                        </p>
+                        <!--<a href="#" class="button button-gray button-xs">Read More <i class="fa fa-long-arrow-right"></i></a>-->
+                    </div>
+                </div>
+
+            </div>
+            </div>
             </div>
         </div>
+
+
         <!-- Footer Area
         <footer class="page-footer font-small blue pt-4">
 
