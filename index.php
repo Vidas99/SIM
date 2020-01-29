@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--ligaçâo bd-->
+<?php require('db.php');?>
    <head>
         <title>Pasific Multipage Template |  Blog Post Read</title>        
         <meta name="description" content="">
@@ -78,8 +80,6 @@
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 
         <![endif]-->
-<!--       LIGAÇÃO BASE DE DADOS-->
-       <?php require('db.php');?>
     </head>
     <body  id="topPage" data-spy="scroll" data-target=".navbar" data-offset="100">
         
@@ -418,9 +418,9 @@
 <!--                        <p class="gallery_text">squeaking when being petted</p>-->
 <!--                    </div>-->
 <!--                </div>-->
+                </div>
             </div>
-
-
+        </div>
         <!-- Footer Area
         <footer class="page-footer font-small blue pt-4">
 
@@ -439,6 +439,7 @@
 
                 </div>
             </div>
+        </div>
                 <!-- Grid column -->
 
 <!--                <hr class="clearfix w-100 d-md-none pb-3">-->
