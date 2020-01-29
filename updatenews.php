@@ -13,7 +13,7 @@ else{
     if ($db->query($sql)) {
         echo "Noticia introduzida com sucesso";
     } else {
-        echo "Ocorreu um erro;
+        echo "Ocorreu um erro";
     }
 }
 ?>

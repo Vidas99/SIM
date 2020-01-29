@@ -78,7 +78,8 @@
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 
         <![endif]-->
-        
+<!--       LIGAÇÃO BASE DE DADOS-->
+       <?php require('db.php');?>
     </head>
     <body  id="topPage" data-spy="scroll" data-target=".navbar" data-offset="100">
         
