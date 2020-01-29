@@ -1,3 +1,5 @@
+<?php require('db.php');?>
+
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-12">
@@ -14,7 +16,7 @@
                     <label>
                         Subtitulo
                     </label>
-                    <input type="text" class="form-control" id="subtitulo" />
+                    <input type="text" class="form-control" id="subtitle" />
                 </div>
                 <div class="form-group">
 
