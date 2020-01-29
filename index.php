@@ -327,26 +327,9 @@
         <!-- Blog Area
         ===================================== -->
 
-        <div id="blog" class="pt75 pb50">
-            <div class="container">
-                <div class="row">
 
-                    <!--Blog Post NOTICIA1 -->
-                    <div class="col-md-6 col-sm-6 col-xs-12 mb50">
-                        <div class="blog-three">
-                            <h4 class="blog-title"><a href="#">DESIGN & DESENVOLVIMENTO: 40 ANOS DEPOIS</a></h4>
-                            <img src="assets/img/noticias/noticia1.jpeg" class="img-responsive" alt="image blog">
-                            <p class="mt25">
-                            <h5>AS OBRAS FORAM CO-EDITADAS PELO PROFESSOR DR. GABRIEL PATROCÍNIO, DO DESIGN.ISMAT</h5>
-                            Decorreu no dia 15 de janeiro, na Livraria da Travessa em Lisboa, o lançamento dos livros "Design & Desenvolvimento: 40 anos depois" e "Design & Development - Leveraging Social and Economic Growth through Design Policies." Os livros foram co-editados pelo Professor Dr. Gabriel Patrocínio, do DESIGN.ISMAT, que na ocasião debateu sobre o tema com Frederico Duarte, curador, crítico de design e professor da Faculdade de Belas-Artes.
-
-                            </p>
-<!--                            botão para dar redirect ao website do ISMAT<a href="#" class="button button-gray button-xs">Read More <i class="fa fa-long-arrow-right"></i></a>-->
-                        </div>
-                    </div>
-<!--                    -->
                     <?php
-                    $query = "SELECT title, subtitle, news_text FROM news";
+                    $query = "SELECT title, subtitle, news_text, image FROM news";
 
                     if (($stmt = $db->prepare($query)) === false) {
                         trigger_error($db->error, E_USER_ERROR);
@@ -364,12 +347,13 @@
                         mysqli_stmt_execute($stmt);
 
                         /* bind result variables */
-                        mysqli_stmt_bind_result($stmt, $title,$subtitle, $news_text);
+                        mysqli_stmt_bind_result($stmt, $title,$subtitle, $news_text, $image);
                         /* fetch values */
                         while (mysqli_stmt_fetch($stmt)) {
                             echo '<div class="col-md-6 col-sm-6 col-xs-12 mb50"">
                                         <div class="blog-three">
                                             <h4 class="blog-title">'.$title.'</h4>
+                                            <img src="/uploads/'.$image.'" class="img-responsive" alt="image blog">
                                             <h5>'.$subtitle.'</h5>
                                             <p>'.$news_text.'</p>
                                          </div>
@@ -381,7 +365,24 @@
                     /* close connection */
                     mysqli_close($db);
                     ?>
+        <div id="blog" class="pt75 pb50">
+            <div class="container">
+                <div class="row">
 
+                    <!--Blog Post NOTICIA1 -->
+                    <div class="col-md-6 col-sm-6 col-xs-12 mb50">
+                        <div class="blog-three">
+                            <h4 class="blog-title"><a href="#">DESIGN & DESENVOLVIMENTO: 40 ANOS DEPOIS</a></h4>
+                            <img src="assets/img/noticias/noticia1.jpeg" class="img-responsive" alt="image blog">
+                            <p class="mt25">
+                            <h5>AS OBRAS FORAM CO-EDITADAS PELO PROFESSOR DR. GABRIEL PATROCÍNIO, DO DESIGN.ISMAT</h5>
+                            Decorreu no dia 15 de janeiro, na Livraria da Travessa em Lisboa, o lançamento dos livros "Design & Desenvolvimento: 40 anos depois" e "Design & Development - Leveraging Social and Economic Growth through Design Policies." Os livros foram co-editados pelo Professor Dr. Gabriel Patrocínio, do DESIGN.ISMAT, que na ocasião debateu sobre o tema com Frederico Duarte, curador, crítico de design e professor da Faculdade de Belas-Artes.
+
+                            </p>
+                            <!--                            botão para dar redirect ao website do ISMAT<a href="#" class="button button-gray button-xs">Read More <i class="fa fa-long-arrow-right"></i></a>-->
+                        </div>
+                    </div>
+                    <!--                    -->
                     <!--Blog Post NOTICIA 2 -->
                     <div class="col-md-6 col-sm-6 col-xs-12 mb50">
                         <div class="blog-three">

@@ -35,11 +35,11 @@ else{
         print_r($errors);
     }
 
-    $sql = "insert into news (title, subtitle, news_text) values('$title','$subtitle','$news_text', '$file_name' )";
+    $sql = "insert into news (title, subtitle, news_text, image) values('$title','$subtitle','$news_text', '$file_name' )";
     if ($db->query($sql)) {
         echo "Noticia introduzida com sucesso";
     } else {
-        echo "Ocorreu um erro";
+        printf("Connect failed: %s\n", $db->connect_error);
     }
 }
 $db->close();
