@@ -16,4 +16,5 @@ else{
         echo "Ocorreu um erro";
     }
 }
+$db->close();
 ?>
