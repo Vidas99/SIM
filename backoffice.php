@@ -3,7 +3,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-12">
-            <form action="updatenews.php" method="post" role="form" class="form-inline">
+            <form action="updatenews.php" method="post" role="form" class="form-inline" enctype="multipart/form-data">
                 <div class="form-group">
 
                     <label >
@@ -25,16 +25,16 @@
                     </label>
                     <textarea type="text" name="news_text" class="form-control" id="news_text"></textarea>
                 </div>
-<!--                <div class="form-group">-->
-<!---->
-<!--                    <label>-->
-<!--                        Imagem-->
-<!--                    </label>-->
-<!--                    <input type="file" class="form-control-file" id="exampleInputFile" />-->
-<!--                    <p class="help-block">-->
-<!--                        Example block-level help text here.-->
-<!--                    </p>-->
-<!--                </div>-->
+                <div class="form-group">
+
+                    <label>
+                        Imagem
+                    </label>
+                    <input type="file" name="image" class="form-control-file" id="image" />
+                    <p class="help-block">
+                        Example block-level help text here.
+                    </p>
+                </div>
 
                 <button type="submit" class="btn btn-primary">
                     Submit
