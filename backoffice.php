@@ -21,7 +21,7 @@
                     <label>
                         Noticia
                     </label>
-                    <input type="password" class="form-control" id="news_text" />
+                    <textarea type="text" class="form-control" id="news_text"></textarea>
                 </div>
 <!--                <div class="form-group">-->
 <!---->
