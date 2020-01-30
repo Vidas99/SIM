@@ -10,6 +10,7 @@ if(!isset($_SESSION["loggedin"]) || !$_SESSION["loggedin"]){
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-12">
+            <title>Vidas News Backoffice</title>
 
                 <a type="submit" href="logout.php" class="btn btn-primary">
                     Logout
